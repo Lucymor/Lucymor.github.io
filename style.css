@@ -1,0 +1,167 @@
+*{
+    font-family: montserrat;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-item{
+
+    height: 100vh; 
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.carousel-caption{
+    bottom: 50%;
+    z-index: 2;
+    font-size: 30px;
+}
+
+.carousel-caption h5{
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+ .carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+ }
+
+.about-section{
+
+    background: rgb(255, 255, 255);
+    padding: 9rem 0;
+}
+
+.about-section p{
+    font-size: 20px;
+}
+
+.card{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    border-radius: 15px;
+    border-color: rgba(41, 41, 41, 0.8);
+    height: 100%; 
+    
+}
+
+.card-text{
+    font-size: 20px;
+    
+}
+
+.card h5{
+    font-size: 30px;
+}
+
+
+.teacher-section{
+
+    background: rgba(0,0,0,0.5);
+    padding: 9rem 0 !important;
+}
+
+.contact-section{
+
+    background: rgba(0,0,0,0.5);
+}
+
+textarea{
+
+    resize: none;
+}
+
+.rounded{
+    width: 300px;
+    height: 324px;
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .carousel-caption{
+        bottom: 165px;
+    }
+    .carousel-caption h5{
+        font-size: 50px;
+    }
+
+    
+    form{
+
+        width: 800px !important;
+
+    }
+}
+ 
+@media screen and (max-width: 1200px) {
+
+    .carousel-caption{
+        bottom: 150px;
+    }
+
+    .carousel-caption h5{
+        font-size: 40px;
+    }
+
+    .carousel-caption p{
+        font-size: 24px;
+    }
+
+    form{
+
+        width: 800px !important;
+
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+    form{
+
+        width: 100% !important;
+
+    }
+}
+
+
+@media screen and (max-width: 992px){
+
+    .medium-col{
+
+        margin: 50px 0;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    
+    .carousel-caption{
+        bottom: 130px;
+    }
+    .carousel-caption h5{
+        font-size: 35px;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+    }
+}
